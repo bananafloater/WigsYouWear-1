@@ -2,7 +2,7 @@
 @font-face{font-family:bold; src:url('/Alegreya-Bold.ttf');font-display: swap;}
 @font-face{font-family:vibe; src:url('/vibe.ttf');font-display: swap;}
 @font-face{font-family:zas; src:url('/Zasline.otf');font-display: swap;}
-:root{--sage:119,133,106;--gray:97, 105, 93;--dark:56, 64, 48;--highlight:110, 138, 83;--tan:163, 130, 119;--darktan:138, 106, 96}
+:root{--sage:119,133,106;--gray:97, 105, 93;--dark:56, 64, 48;--highlight:110, 138, 83;--tan:138, 131, 81;--darktan:107, 102, 62}
 ::selection{background: rgb(var(--dark));color: #fff;}::-moz-selection{background: rgb(var(--dark));color: #fff;}
 html{background: #fff;height: 100vh;font-size: min(55px, 5.5vw);background: url("canvas.jpg");}
 body{padding: 0;margin: 0;width: 100%;font-family: reg;}
@@ -30,8 +30,8 @@ a{text-decoration: none;color: inherit;}
 #info > div{display: inline-block;}
 .title{font-family: bold;letter-spacing: .05em;text-shadow: #000 0 .1rem .3rem;font-size: 1rem;margin: .5rem 0 .25rem;display: inline-block;}
 .subtitle{font-size: .75rem;}
-#hours{font-size: .5rem;border-collapse: collapse;background: rgb(var(--tan));border-radius: .1rem;overflow: hidden;}
-#hours tr:nth-of-type(odd){background: rgb(var(--darktan));padding:0 20em;}
+#hours{font-size: .5rem;border-collapse: collapse;background: rgb(var(--darktan));border-radius: .1rem;overflow: hidden;}
+#hours tr:nth-of-type(odd){background: rgb(var(--tan));padding:0 20em;}
 #hours tr *{padding: .2em .7em;}
 #hours th{text-align: right;letter-spacing: .05em;}
 #hours td{text-align: left;}
