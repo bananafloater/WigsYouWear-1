@@ -15,8 +15,8 @@ header > a{color: rgb(var(--dark));padding: .1em .3em;display: inline-flex;align
 #name span{display: block;font-size: .7em;color: rgb(var(--gray));line-height: 1;}
 #logo{height: 3rem;width: 2.7rem;background: url("lady.webp") center;background-size: cover;display: inline-block;}
 nav{font-family: reg;font-size: .6rem;padding-bottom: .2rem;}
-nav a{display: inline-block;padding: .1rem .5em 0;background: #fff;color: rgb(var(--sage));border-radius: .1rem;margin: 0 .25rem;transition: transform .2s ease,background .3s ease,color .3s ease;border-bottom: solid rgb(var(--sage)) 0.1rem;}
-nav a:is(:hover,:focus){transform: scale(1.15);background: rgb(var(--sage));color: #fff;}
+nav a{display: inline-block;padding: .1rem .5em 0;background: #fff;color: rgb(var(--sage));border-radius: .05rem;margin: 0 .25rem;transition: transform .2s ease,background .3s ease,color .3s ease,border-radius.3s ease;border-bottom: solid rgb(var(--sage)) 0.05rem;}
+nav a:is(:hover,:focus){transform: scale(1.15);background: rgb(var(--sage));color: #fff;border-radius: .1rem;}
 
 main{text-align: center;width: calc(100% - 1.5rem);color: #fff;font-size: .5rem;padding: .75rem;overflow-x: hidden;}
 main::before{content: '';background: rgb(var(--sage));top: 0px; left: 0px; bottom:0; right:0;position: fixed;z-index: -1;mix-blend-mode: multiply;background-attachment: fixed;}
@@ -27,10 +27,8 @@ main > div{color: #fff;background: rgb(var(--dark));width: fit-content;display: 
 .clk:is(:hover,:focus){transform: scale(1.1);}
 .title,.subtitle{font-family: bold;letter-spacing: .05em;}
 .title{text-shadow: #000 0 .1rem .3rem;font-size: 1rem;margin: .5rem 0 .25rem;display: inline-block;}
+.title:first-of-type{margin-top: -.3em;}
 .subtitle{font-size: .75rem;}
-
-
-
 
 
 
